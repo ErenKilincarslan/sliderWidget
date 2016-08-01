@@ -33,7 +33,7 @@
 <div id="slaytButon">
 <iframe src="" frameborder="0" id="iframe" name="iframe"></iframe>
 
-<a href="slider.php"><input type="button" id="butonSlayt"  name="slaytButton" value="SLAYTI YAP ARTIK"></a>
+<a href="slider.php"><input type="button" id="butonSlayt"  name="slaytButton" value="Slayt Yap"></a>
 </div>
 </body>
 </html>
