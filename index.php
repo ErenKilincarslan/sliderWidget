@@ -17,23 +17,29 @@
 
 </head>
 <body>
-<div class="ana" id="i">
-    <div class="arti">Alan Ekle</div>
-    <!--  Target vermeyi unutmaayın.Veriyi ajaxla yollar sonuçları belirlediğimiz iframeye yollar. -->
-    <form action="upload.php" method="post" enctype="multipart/form-data" id="yukle" target="iframe">
-        <div class="iler">
-            <div class="i_ana"> <input type="file" name="resim[]" />    <div class="eksi">-</div>   </div>
-        </div>
-        <input type="submit" class="buton" value="Yükle" />
-    </form>
+<div id="aciklama">
+    <h1>Upload Ekranı</h1><hr>
+    <h2>Yuklemek istediginiz ".png" uzantılı resimleri lütfen ekleyiniz.</h2>
 </div>
+<div id="index">
+    <div class="ana" id="i">
+        <button class="arti">Alan Ekle</button>
+        <!--  Target vermeyi unutmaayın.Veriyi ajaxla yollar sonuçları belirlediğimiz iframeye yollar. -->
+        <form action="upload.php" method="post" enctype="multipart/form-data" id="yukle" target="iframe">
+            <div class="iler">
+                <div class="i_ana"> <input id="dosya" type="file" name="resim[]" />    <div class="eksi">Alanı Kaldır</div>   </div>
+            </div>
+            <input id="yukleButon" type="submit" class="buton" value="Yükle" />
+        </form>
+    </div>
     
-<div class="ana" id="i" name="sonuc">
-</div>
-<div id="slaytButon">
-<iframe src="" frameborder="0" id="iframe" name="iframe"></iframe>
+    <div class="ana" id="i" name="sonuc">
+    </div>
+    <div id="slaytButon">
+        <iframe src="" frameborder="0" id="iframe" name="iframe"></iframe>
 
-<a href="slider.php"><input type="button" id="butonSlayt"  name="slaytButton" value="Slayt Yap"></a>
+        <a href="slider.php"><input type="button" id="butonSlayt"  name="slaytButton" value="Slayt Yap"></a>
+    </div>
 </div>
 </body>
 </html>

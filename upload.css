@@ -1,58 +1,103 @@
 body {
-    background-color: #222;
+    padding: 1%;
+    background: #1d1f20;  
+    background-image: url("1.png");  
 }
-
-.ana{
-    color: #fff;
-    font: 40px Arial;
+#index {
+    margin: auto;
+    width: 1000px;
+    background: #343436;
+    border-radius: 15px;
+    border: 1px solid darken(#3498db, 20%);
+    opacity: 0.6;
 }
 .arti {
-    background-color: #b2b2b2;
-    margin-left: 44%;
-    margin-top: 4%;
-    border: 2px solid #ccc;
-    color: #fff;
-    font: 40px Arial;
-    border-radius: 25px;
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    border: 0;
+    font: 50px Helvetica, sans-serif;
+}
+.arti:hover {
+    border: 5px outset darken(#ddd, 20%);
+    background: #00BCD4;
+    color: $333;
+    opacity: 1;
+
+}
+.arti:active {
+    border: 10px inset darken(#000,20%);
+    background: #44FFFF;
+}
+#dosya{
+    margin: 2% 0% 2% 40%;
+    width: auto;
+    font-size: xx-large;
+    color: white;
+}
+.eksi {
+    font-size: xx-large;
+    margin: 2% 0% 2% 40%;
+    background-color: #ccc;
     width: 170px;
-    padding: 20px;
+    border-radius: 5px;
 }
-#yukle {
-    margin-left: 30%;
-    margin-top: 2%;
-    background-color: #b2b2b2;
-    color: #fff;
-    font: 40px Arial;
-    border: 2px solid #ccc;
-    border-radius: 150px;
-    padding: 5%;
-    width: 700px;
+.eksi:hover {
+    background-color: #FF1744;
+    color: white;
 }
-
-input {
-    font: 40px Arial;
+#yukleButon {
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding: 10px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0;
+    font: 50px Helvetica, sans-serif;
 }
-
-#butonSlayt {
-    margin-left: 27%;
-    background-color: transparent;
-    border: 3px outset papayawhip;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    border-radius: 20px;
-    padding:5px;
+#yukleButon:hover {
+    border: 10px inset darken(#000,20%);
+    background-color: #00BCD4;
 }
-#slaytButon {
-    margin-left: 30%;
-    margin-top: 2%;
-    padding-bottom: 30px;
-    border: 2px solid #ccc;
-    border-radius:  200px;
-    width: 950px;
-    background-color: #b2b2b2;
+#yukleButon:active {
+    border: 10px inset darken(#000,20%);
+    background: #44FFFF;
 }
 #iframe {
-    background-color: #ccc;
-    margin:10px;
-    margin-left: 30%;
+    width: 90%;
+    margin: 30px;
+    background-color: #aaa;
+    border-radius: 15px;
+    padding: 25px;
+    font-size: xx-large;
+}
+#butonSlayt {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+    border: 0;
+    font: 50px Helvetica, sans-serif;
+}
+#butonSlayt:hover {
+    border: 10px inset darken(#000,20%);
+    background-color: #00BCD4;
+}
+#butonSlayt:active {
+    border: 10px inset darken(#000,20%);
+    background: #44FFFF;
+}
+#aciklama{
+    margin: auto;
+    width: 1000px;
+}
+h1 {
+    font: 60px Helvetica , sans-serif;
+    color: #ccc;
+}
+h2{
+    font: 30px Helvetica , sans-serif;
+    color: #ccc;
 }

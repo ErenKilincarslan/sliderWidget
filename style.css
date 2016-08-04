@@ -1,3 +1,8 @@
+body {
+    padding: 5%;
+    background: #1d1f20;  
+    background-image: url("1.png");  
+}
 
 #progress {
     font: 50px Arial;
@@ -15,7 +20,18 @@
     padding: 0;
     border: 0;
 }
-
+h1 {
+    font: 60px Helvetica , sans-serif;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+h2{
+    font: 30px Helvetica , sans-serif;
+    color: #ccc;
+}
+.aciklama {
+    margin: 25px;
+}
 a{
     text-decoration: none;
 }
@@ -24,7 +40,7 @@ ul{
     list-style: none;
 }
 #slider{
-    margin: 20px;
+    margin: auto;
 }
 .slider{
     overflow: hidden;
@@ -37,24 +53,34 @@ ul{
     float: left;
 
 }
-.sliderButton {
-    font: 30px Arial;
-    color: #333;
+.previous {
+    font: 40px Sans-serif;
+    color: #aaa;
+    float: left;
+    opacity: 0.5;
 }
-.sliderButton :hover{
-    font: 40px Arial black;
+.previous:hover {
+    font: 60px Sans-serif;
+    color: #ddd;
+    opacity: 1;
 }
-.sliderButton :active{
-    font: 40px Arial black;
-    color: #333;
+.previous:active {
+    color: #F44336;
 }
-.sliderButton :visited{
-    color: #333;
+.next {
+    font: 40px Sans-serif;
+    color: #aaa;
+    float: right;
+    opacity: 0.5;
 }
-.sliderButton :focus{
-    color: #333;
+.next:hover {
+    font: 60px Sans-serif;
+    color: #ddd;
+    opacity: 1;
 }
-
+.next:active {
+    color: #4CAF50;
+}
 #upload{
     margin-left: 40%;
     margin-top: 10%;
@@ -75,3 +101,7 @@ form{
     display:inline-block;
     top:3px;
     left:48%; }
+#parent {
+    margin: auto;
+    width: 1000px;
+}

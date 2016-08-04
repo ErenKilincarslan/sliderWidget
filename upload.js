@@ -8,7 +8,7 @@ $(function(){
 
         if(i<5){//eğer eksi sayısı 5 ten az ise
 
-            $(".iler").append('<div class="i_ana">  <input type="file" name="resim[]" />    <div class="eksi">-</div>   </div>');
+            $(".iler").append('<div class="i_ana">  <input id="dosya" type="file" name="resim[]" />    <div class="eksi">Alanı Kaldır</div>   </div>');
 
             //sayfaya bir tane daha file koy
 
