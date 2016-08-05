@@ -1,7 +1,7 @@
 body {
     padding: 5%;
     background: #1d1f20;  
-    background-image: url("1.png");  
+    background-image: url("image/2.jpg");  
 }
 
 #progress {
@@ -54,28 +54,28 @@ ul{
 
 }
 .previous {
+    margin-top: 15px;
     font: 40px Sans-serif;
-    color: #aaa;
     float: left;
     opacity: 0.5;
 }
 .previous:hover {
     font: 60px Sans-serif;
-    color: #ddd;
+    color: #fff;
     opacity: 1;
 }
 .previous:active {
     color: #F44336;
 }
 .next {
+    margin-top: 15px;
     font: 40px Sans-serif;
-    color: #aaa;
     float: right;
     opacity: 0.5;
 }
 .next:hover {
     font: 60px Sans-serif;
-    color: #ddd;
+    color: #fff;
     opacity: 1;
 }
 .next:active {

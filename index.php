@@ -23,13 +23,13 @@
 </div>
 <div id="index">
     <div class="ana" id="i">
-        <button class="arti">Alan Ekle</button>
+        <button class="arti"><img src="image/plus.png" style="width:75px; height=75px; float: left;" />Alan Ekle<img src="image/plus.png" style="width:75px; height=75px; float: right; " /></button>
         <!--  Target vermeyi unutmaayın.Veriyi ajaxla yollar sonuçları belirlediğimiz iframeye yollar. -->
         <form action="upload.php" method="post" enctype="multipart/form-data" id="yukle" target="iframe">
             <div class="iler">
                 <div class="i_ana"> <input id="dosya" type="file" name="resim[]" />    <div class="eksi">Alanı Kaldır</div>   </div>
             </div>
-            <input id="yukleButon" type="submit" class="buton" value="Yükle" />
+            <input id="yukleButon" type="submit" class="buton" value="Yükle">
         </form>
     </div>
     
@@ -38,7 +38,7 @@
     <div id="slaytButon">
         <iframe src="" frameborder="0" id="iframe" name="iframe"></iframe>
 
-        <a href="slider.php"><input type="button" id="butonSlayt"  name="slaytButton" value="Slayt Yap"></a>
+        <a href="slider.php"><button id="butonSlayt"><img src="image/play.png" style="width:75px; height=75px; float: left; " />Slayt Yap<img src="image/play.png" style="width:75px; height=75px; float: right; " /></button></a>
     </div>
 </div>
 </body>

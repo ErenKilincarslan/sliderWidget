@@ -1,7 +1,7 @@
 body {
     padding: 1%;
     background: #1d1f20;  
-    background-image: url("1.png");  
+    background-image: url("image/2.jpg");  
 }
 #index {
     margin: auto;
@@ -38,11 +38,11 @@ body {
     color: white;
 }
 .eksi {
-    font-size: xx-large;
     margin: 2% 0% 2% 40%;
     background-color: #ccc;
     width: 170px;
     border-radius: 5px;
+    font: 32px sans-serif;
 }
 .eksi:hover {
     background-color: #FF1744;

@@ -35,8 +35,8 @@
             </ul>
         </div>
         <div class="sliderButton">
-            <a href="#" class="previous">Previous</a>
-            <a href="#" class="next">Next</a>
+            <a href="#" class="previous"><img src="image/previous.png" style="width:100px; height=100px;"></a>
+            <a href="#" class="next"><img src="image/next.png" style="width:100px; height=100px; "></a>
         </div>
     </div>
 </div>
